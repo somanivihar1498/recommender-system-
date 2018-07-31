@@ -6,21 +6,11 @@
 
 import pandas as pd
 import numpy as np
-
-
-# In[2]:
-
-
-pwd
-
-
 # In[8]:
 
 
 column_names=['user_id','item_id','ratings','timestamp']
 df=pd.read_csv('u.data',sep='\t',names=column_names)
-
-
 # In[11]:
 
 
